@@ -1,0 +1,38 @@
+{
+  "name": "contenthor",
+  "version": "0.0.1",
+  "description": "Simple, rich configurable file/image service with image processing with integration of Amazon S3 and Google Cloud Storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetromDouble/contenthor.git"
+  },
+  "keywords": [],
+  "author": "Dmitry Strelnikov (MetromDouble)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MetromDouble/contenthor/issues"
+  },
+  "homepage": "https://github.com/MetromDouble/contenthor#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "eslint": "^4.2.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.8",
+    "winston": "^2.3.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mime-types": "^2.1.15",
+    "mkpath": "^1.0.0",
+    "multer": "^1.3.0",
+    "nconf": "^0.8.4",
+    "request": "^2.81.0",
+    "rmdir": "^1.2.0",
+    "sharp": "^0.18.2"
+  }
+}
